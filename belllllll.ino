@@ -3,7 +3,7 @@
 #include <EEPROMex.h>
 RTC_DS1307 rtc;
 DateTime tnow;
-//void display_data();
+void display_data();
 void custom_day();
 void regular_day();
 void holiday();
